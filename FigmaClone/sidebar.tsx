@@ -14,6 +14,8 @@ export default function Sidebar() {
       </div>
       <div className="p-3 border-b">
         <div className="relative">
+          <div className="Careers">
+        
           <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
           <input
             type="text"
@@ -56,6 +58,8 @@ export default function Sidebar() {
         </nav>
       </div>
     </div>
+      </div>
+      
       <
   )
 }
