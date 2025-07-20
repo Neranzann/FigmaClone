@@ -36,6 +36,8 @@ export default function Sidebar() {
               { icon: <Wrench className="w-5 h-5" />, label: "Services" },
               { icon: <FileText className="w-5 h-5" />, label: "Quotation" },
               { icon: <ClipboardList className="w-5 h-5" />, label: "Tasks" },
+              { icon: <careers className="w-5-h-9"/
+      
             ].map((item, index) => (
               <li key={index}>
                 <a
@@ -54,6 +56,7 @@ export default function Sidebar() {
         </nav>
       </div>
     </div>
+      <
   )
 }
 
